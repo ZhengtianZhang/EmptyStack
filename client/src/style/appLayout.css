@@ -1,0 +1,98 @@
+.app {
+  margin: 10px;
+}
+
+.title {
+  font-size: 12px;
+  border: 1px solid rgb(0, 255, 179);
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(241, 245, 245);
+  width: 100%;
+  border: 1px solid rgb(33, 158, 208);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+
+.content {
+  width: 100%;
+  border: 1px solid lightskyblue;
+  margin-top: 5px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  
+}
+
+.menu-list li {
+  margin-right: 8px;
+}
+
+.exit-button {
+  background-color: rgb(76, 97, 113);
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(180, 226, 244);
+  color: aliceblue;
+  height: 100%;
+  font-size: 36px;
+}
+
+.form-wrapper {
+  margin: 5%;
+}
+
+input,
+label {
+  display: block;
+}
+
+.menu-list a:link,
+a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(106, 118, 188);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu-list a:hover,
+a:active {
+  background-color: rgb(69, 103, 137);
+  color: white;
+}
+
+.search-results a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.search-results a:hover {
+  text-decoration: underline;
+}
+
+.search-results li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-list{
+    flex-wrap: wrap;
+  }
+}

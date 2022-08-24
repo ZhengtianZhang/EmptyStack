@@ -1,0 +1,24 @@
+.questions-profile li {
+  list-style-type: none;
+}
+
+.questions-profile li a{
+    color: black;
+}
+
+.questions-profile li a:visited{
+    color: black;
+}
+
+.questionItems {
+  display: flex;
+}
+
+.answersItems {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+

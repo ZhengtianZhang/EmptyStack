@@ -1,0 +1,31 @@
+.question-item {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--gray);
+}
+
+.question-item input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.question-item input[type="checkbox"]:checked + .itemName {
+  opacity: 0.5;
+}
+
+.question-item button {
+  padding: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.question-item button:hover {
+  transform: scale(1.4);
+}
+
+.questions li a {
+  color: black;
+}
